@@ -12,6 +12,7 @@ export let students: Student[] = [
     firstName: "Matt",
     lastName: "Damon",
     program: "CPE",
+    courses: [],
   },
   {
     studentId: "650610002",
@@ -91,7 +92,7 @@ export let users: User[] = [
     studentId: null,
     role: "ADMIN",
   },
-];
+]; 
 
 export const DB = {
   students,
